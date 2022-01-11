@@ -1,0 +1,36 @@
+{
+  "name": "hexo-deployer-pinata",
+  "version": "1.0.0",
+  "description": "IPFS and Pinata deployer plugin for Hexo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qishen/hexo-deployer-pinata.git"
+  },
+  "keywords": [
+    "hexo",
+    "ipfs",
+    "pinata",
+    "deployer"
+  ],
+  "author": "Qishen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qishen/hexo-deployer-pinata/issues"
+  },
+  "homepage": "https://github.com/qishen/hexo-deployer-pinata#readme",
+  "dependencies": {
+    "@pinata/sdk": "^1.1.23",
+    "chalk": "^4.0.0",
+    "hexo-fs": "^3.1.0",
+    "hexo-util": "^2.5.0",
+    "ipfs-http-client": "^55.0.0",
+    "it-all": "^1.0.6"
+  },
+  "devDependencies": {
+    "husky": "^7.0.4"
+  }
+}
